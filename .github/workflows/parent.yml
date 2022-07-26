@@ -16,7 +16,7 @@ on:
     #   - '**-svc/**'
     #   - '.github/workflows/*nxdev*.yml'
 jobs:
-  install-deps:
+  parent:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
